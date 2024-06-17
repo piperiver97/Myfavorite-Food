@@ -1,0 +1,160 @@
+header {
+  background-color: rgb(58, 56, 56);
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 0.5rem;
+  }
+}
+
+.ingredients {
+  background-color: #e4e4e4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.ingredients h2 {
+  margin-top: 0;
+}
+.ingredients ul {
+  list-style-type: none;
+  padding: 0;
+}
+.ingredients ul li {
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 768px) {
+  .ingredients {
+    padding: 0.5rem;
+  }
+  .ingredients ul li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.time {
+  background-color: #e4e4e4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.time h2 {
+  margin-top: 0;
+}
+.time .timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time .timer .display {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.time .timer .buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.time .timer .buttons button {
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.time .timer .buttons button:hover {
+  background-color: blueviolet;
+}
+.time .timer #startButton {
+  background-color: gold;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.time .timer #startButton:hover {
+  background-color: antiquewhite;
+}
+@media (max-width: 768px) {
+  .time {
+    padding: 0.5rem;
+  }
+  .time .display {
+    font-size: 1.5rem;
+  }
+}
+
+.preparation {
+  padding: 1rem;
+}
+.preparation h2 {
+  text-align: center;
+}
+.preparation .step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.preparation .step .number {
+  background-color: greenyellow;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  min-width: 2rem;
+  text-align: center;
+}
+.preparation .step p {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .preparation {
+    padding: 0.5rem;
+  }
+  .preparation .step {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .preparation .step .number {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+footer {
+  background-color: rgb(58, 56, 56);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+footer .social-media {
+  margin-top: 1rem;
+}
+footer .social-media a {
+  margin: 0 0.5rem;
+}
+footer .social-media a img {
+  width: 24px;
+  height: 24px;
+}
+@media (max-width: 768px) {
+  footer {
+    padding: 0.5rem;
+  }
+  footer .social-media a {
+    margin: 0 0.25rem;
+  }
+  footer .social-media a img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+.time {
+    background-color: #e4e4e4;
+    padding: 1rem;
+    border-radius: 8px;
+  
+    h2 {
+      margin-top: 0;
+    }
+  
+    .timer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .display {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      .buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+  
+        button {
+          background-color: cadetblue ;
+          color: #fff;
+          border: none;
+          padding: 0.5rem;
+          margin: 0.2rem;
+          border-radius: 4px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color:blueviolet ;
+          }
+        }
+      }
+  
+      #startButton {
+        background-color: gold;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color:antiquewhite;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 0.5rem;
+  
+      .display {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  

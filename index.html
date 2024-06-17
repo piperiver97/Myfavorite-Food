@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Food</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>TARTAR DE TERNERA CON TUETANO</h1>
+    </header>
+
+    <section class="banner">
+        <img src="/public/assets/img/tartar.jpg" alt="Banner Image">
+    </section>
+
+    <section class="content">
+        <div class="ingredients">
+            <h2>INGREDIENTS</h2>
+            <ul>
+                <li><input type="checkbox"> 150gr Lomo de ternera limpio</li>
+                <li><input type="checkbox"> 2gr de Sal</li>
+                <li><input type="checkbox"> 1 Yema de huevo</li>
+                <li><input type="checkbox"> 3gr de aceite virgen extra</li>
+                <li><input type="checkbox"> 1gr de salsa tabasco </li>
+                <li><input type="checkbox"> 5gr de salsa perrin's</li>
+                <li><input type="checkbox"> 2gr de pepinillo picado en brunice fino</li>
+                <li><input type="checkbox"> 2gr de cebolla chalota picado en brunice fino</li>
+                <li><input type="checkbox"> 2gr de alcaparra picado en brunice fino</li>
+                <li><input type="checkbox"> 1 hueso abierto a la mitad (tuetano) </li>
+                <li><input type="checkbox"> Esferas de aceite extra virgen </li>
+            </ul>
+        </div>
+
+        <div class="time">
+            <h2>TIEMPO</h2>
+            <div class="timer">
+                <div id="display" class="display">00:00</div>
+                <div class="buttons">
+                    <button onclick="setTimer(5)">5</button>
+                    <button onclick="setTimer(10)">10</button>
+                    <button onclick="setTimer(15)">15</button>
+                    <button onclick="setTimer(20)">20</button>
+                </div>
+                <button id="startButton" onclick="startTimer()">Start</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="preparation">
+        <h2>Preparacion</h2>
+        <div class="step">
+            <div class="number">1</div>
+            <p>Picar la carne, hasta que queden en trozos finos y pequeños.</p>
+        </div>
+        <div class="step">
+            <div class="number">2</div>
+            <p>Llevar el hueso al horno por 5 minutos a 180º hasta que el tuetano este totalmente blando.</p>
+        </div>
+        <div class="step">
+            <div class="number">3</div>
+            <p>Añadir los ingredientes en un bowl, sal, yema, pepinillo, salsa perrins, cebolla chalota, alcaparra, salsa tabasco, aceite de oliva y la carne picada.</p>
+        </div>
+        <div class="step">
+            <div class="number">4</div>
+            <p>Mexclar bien hasta que los ingredientes queden bien distribuidos.</p>
+        </div>
+        <div class="step">
+            <div class="number">5</div>
+            <p>Retiramos el hueso del horno y añadimos Sal.</p>
+        </div>
+        <div class="step">
+            <div class="number">6</div>
+            <p>Emplatamos con molde, por encima las esferas de virgen extra, y usamos flores de nuestro gusto.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Felipe Riveros</p>
+        <div class="social-media">
+            <a href="#"><img src="public/assets/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="public/assets/icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="public/assets/icons/x-twitter.svg" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="public/js/script.js"></script>
+</body>
+</html>

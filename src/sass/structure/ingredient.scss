@@ -1,0 +1,29 @@
+.ingredients {
+    background-color: #e4e4e4;
+    padding: 1rem;
+    border-radius: 8px;
+  
+    h2 {
+      margin-top: 0;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 0.5rem;
+  
+      ul {
+        li {
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
+  }
+  
