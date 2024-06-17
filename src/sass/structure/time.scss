@@ -1,10 +1,13 @@
 .time {
-    background-color: #e4e4e4;
-    padding: 1rem;
-    border-radius: 8px;
+  background-color: #040404;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
   
     h2 {
       margin-top: 0;
+      color: wheat;
+          text-align: center;
     }
   
     .timer {
@@ -15,6 +18,7 @@
       .display {
         font-size: 2rem;
         margin-bottom: 1rem;
+        color: whitesmoke;
       }
   
       .buttons {
@@ -38,8 +42,8 @@
       }
   
       #startButton {
-        background-color: gold;
-        color: #fff;
+        background-color: wheat;
+        color: black;
         border: none;
         padding: 0.5rem 1rem;
         border-radius: 4px;

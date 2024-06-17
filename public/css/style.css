@@ -1,6 +1,6 @@
 header {
-  background-color: rgb(58, 56, 56);
-  color: #ffffff;
+  background-color: antiquewhite;
+  color: black;
   padding: 1rem;
   text-align: center;
 }
@@ -14,7 +14,7 @@ header h1 {
 }
 
 .ingredients {
-  background-color: #e4e4e4;
+  background-color: #eccea6;
   padding: 1rem;
   border-radius: 8px;
 }
@@ -38,12 +38,15 @@ header h1 {
 }
 
 .time {
-  background-color: #e4e4e4;
+  background-color: #040404;
   padding: 1rem;
   border-radius: 8px;
+  text-align: center;
 }
 .time h2 {
   margin-top: 0;
+  color: wheat;
+  text-align: center;
 }
 .time .timer {
   display: flex;
@@ -53,6 +56,7 @@ header h1 {
 .time .timer .display {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: whitesmoke;
 }
 .time .timer .buttons {
   display: flex;
@@ -72,8 +76,8 @@ header h1 {
   background-color: blueviolet;
 }
 .time .timer #startButton {
-  background-color: gold;
-  color: #fff;
+  background-color: wheat;
+  color: black;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -103,7 +107,7 @@ header h1 {
   margin-bottom: 1rem;
 }
 .preparation .step .number {
-  background-color: greenyellow;
+  background-color: rgb(230, 191, 120);
   color: #fff;
   border-radius: 50%;
   padding: 0.5rem;
@@ -129,13 +133,14 @@ header h1 {
 }
 
 footer {
-  background-color: rgb(58, 56, 56);
-  color: #fff;
-  text-align: center;
+  background-color: antiquewhite;
+  color: black;
   padding: 1rem;
 }
 footer .social-media {
   margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
 }
 footer .social-media a {
   margin: 0 0.5rem;
@@ -155,6 +160,11 @@ footer .social-media a img {
     width: 20px;
     height: 20px;
   }
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

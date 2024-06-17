@@ -1,11 +1,14 @@
 footer {
-    background-color: rgb(58, 56, 56) ;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  background-color: antiquewhite;
+  color: black;
+
+  padding: 1rem;
   
     .social-media {
       margin-top: 1rem;
+      display: flex;
+      justify-content: flex-end;
+      
   
       a {
         margin: 0 0.5rem;
@@ -13,6 +16,7 @@ footer {
           width: 24px;
           height: 24px;
         }
+        
       }
     }
   

@@ -36,3 +36,4 @@ function updateDisplay() {
   const seconds = timerTime % 60;
   timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
+
