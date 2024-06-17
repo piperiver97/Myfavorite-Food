@@ -166,5 +166,10 @@ footer .social-media a img {
   display: flex;
   justify-content: space-around;
 }
+.banner .banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
