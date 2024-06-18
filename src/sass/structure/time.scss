@@ -9,6 +9,10 @@
       color: wheat;
           text-align: center;
     }
+    .times{
+      color: wheat;
+      font-size: 50px;
+    }
   
     .timer {
       display: flex;
@@ -16,7 +20,7 @@
       align-items: center;
   
       .display {
-        font-size: 2rem;
+        font-size: 50px;
         margin-bottom: 1rem;
         color: whitesmoke;
       }

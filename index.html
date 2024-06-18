@@ -8,17 +8,19 @@
 </head>
 <body>
     <header>
+        <div class="title">
         <h1>TARTAR DE TERNERA CON TUETANO</h1>
+        </div>
     </header>
 
     <section class="banner">
         <img src="./public/assets/img/tartar.jpg" alt="Banner Image">
     </section>
 
-    <section class="content">
+    <div id="container" class="content">
         <div class="ingredients">
-            <h2>INGREDIENTS</h2>
             <ul>
+                <h2>INGREDIENTES</h2>
                 <li><input type="checkbox"> 150gr Lomo de ternera limpio</li>
                 <li><input type="checkbox"> 2gr de Sal</li>
                 <li><input type="checkbox"> 1 Yema de huevo</li>
@@ -31,57 +33,64 @@
                 <li><input type="checkbox"> 1 hueso abierto a la mitad (tuetano) </li>
                 <li><input type="checkbox"> Esferas de aceite extra virgen </li>
             </ul>
-        </div>
-
-        <div class="time">
-            <h2>TIEMPO</h2>
-            <div class="timer">
-                <div id="display" class="display">00:00</div>
-                <div class="buttons">
-                    <button onclick="setTimer(5)">5</button>
-                    <button onclick="setTimer(10)">10</button>
-                    <button onclick="setTimer(15)">15</button>
-                    <button onclick="setTimer(20)">20</button>
+            <div class="time">
+                <h2>TIEMPO</h2>
+                <div class="timer">
+                    <div id="display" class="display">00:00</div>
+                    <div class="buttons">
+                        <button onclick="setTimer(5)">5</button>
+                        <button onclick="setTimer(10)">10</button>
+                        <button onclick="setTimer(15)">15</button>
+                        <button onclick="setTimer(20)">20</button>
+                    </div>
+                    <button id="startButton" onclick="startTimer()">Start</button>
                 </div>
-                <button id="startButton" onclick="startTimer()">Start</button>
+                <div class="img-time">
+                    <img src="./public/assets/icons/time.svg" alt="img time">
+                    <span class="times">15:00</span>
+                </div>
             </div>
         </div>
-    </section>
+ 
+    </div>
 
     <section class="preparation">
-        <h2>Preparacion</h2>
+       <nav> <h2>Preparacion</h2></nav>
+       <div class="steps"></div>
         <div class="step">
-            <div class="number">1</div>
+            <div class="number"></div>
             <p>Picar la carne, hasta que queden en trozos finos y pequeños.</p>
         </div>
         <div class="step">
-            <div class="number">2</div>
+            <div class="number"></div>
             <p>Llevar el hueso al horno por 5 minutos a 180º hasta que el tuetano este totalmente blando.</p>
         </div>
         <div class="step">
-            <div class="number">3</div>
+            <div class="number"></div>
             <p>Añadir los ingredientes en un bowl, sal, yema, pepinillo, salsa perrins, cebolla chalota, alcaparra, salsa tabasco, aceite de oliva y la carne picada.</p>
         </div>
         <div class="step">
-            <div class="number">4</div>
+            <div class="number"></div>
             <p>Mexclar bien hasta que los ingredientes queden bien distribuidos.</p>
         </div>
         <div class="step">
-            <div class="number">5</div>
+            <div class="number"></div>
             <p>Retiramos el hueso del horno y añadimos Sal.</p>
         </div>
         <div class="step">
-            <div class="number">6</div>
+            <div class="number"></div>
             <p>Emplatamos con molde, por encima las esferas de virgen extra, y usamos flores de nuestro gusto.</p>
         </div>
     </section>
 
     <footer>
-        <p>Created by Felipe Riveros</p>
+        <div class="footer">
+        <p>@2024. Created by Felipe Riveros</p>
         <div class="social-media">
             <a href="#"><img src="public/assets/icons/facebook.svg" alt="Facebook"></a>
             <a href="#"><img src="public/assets/icons/instagram.svg" alt="Instagram"></a>
             <a href="#"><img src="public/assets/icons/x-twitter.svg" alt="Twitter"></a>
+        </div>
         </div>
     </footer>
 
